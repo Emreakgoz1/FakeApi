@@ -1,13 +1,5 @@
-#div {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    max-width: 65rem;
-    margin: auto;
-    
-  }
+
 #card {
-    width: 18rem;
     border: 1px solid #ccc;
     border-radius: 0.25rem;
     margin: 1rem;
@@ -30,7 +22,7 @@
   #cardprice {
     font-size: 1.25rem;
     font-weight: bold;
-    color: green;
+    color: black;
   }
   
   #carddescription {
@@ -38,6 +30,5 @@
     font-weight: bolder;
     font-style: italic;
     color: black;
-    
   }
   

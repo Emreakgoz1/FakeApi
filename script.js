@@ -20,7 +20,12 @@ getText(url).then((data) => {
       if (index < 9) {
         //decrease increase buton koy
         //price göre sırala
-        divelement.innerHTML += `<div id="card"><h2 id="cardtitle">${item.title}</h2><p id="cardprice">${item.price}</p><p id="carddescription">${item.description}</p></div>`;
+        //divelement.innerHTML += `<div id="card"><h2 id="cardtitle">${item.title}</h2><p id="cardprice">${item.price}</p><p id="carddescription">${item.description}</p></div>`;
+        divelement.innerHTML += `
+        <div class="col-12 col-md-6 col-xl-4">
+        <div id="card"><h2 id="cardtitle">${item.title}</h2><p id="cardprice">${item.price}</p><p id="carddescription">${item.description}</p></div>
+        </div>
+        `;
       }
       // divelement.innerHTML += `<li></li>`;
       // divelement.innerHTML += `<li></li>`;
