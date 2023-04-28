@@ -1,0 +1,43 @@
+#div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 65rem;
+    margin: auto;
+    
+  }
+#card {
+    width: 18rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    margin: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    padding: 10px;
+    
+  }
+ 
+  #card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+  }
+  
+#cardtitle{
+    font-size: large;
+    color: rebeccapurple;
+}
+  
+  #cardprice {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: green;
+  }
+  
+  #carddescription {
+    font-size: 1.25rem;
+    font-weight: bolder;
+    font-style: italic;
+    color: black;
+    
+  }
+  
