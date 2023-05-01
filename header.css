@@ -1,0 +1,61 @@
+.header{
+    background-color: #222229;
+}
+.headerrow{
+    display: flex;
+    justify-content:space-around;
+    align-items: start;
+    padding-top: 15px;
+}
+.logo{
+    color:white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+.hizmetlerimiz{
+    color:white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 50px;
+    
+/*    padding-right: 500px;*/
+
+}
+.girisyap{
+    color:white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    padding-right: 15px;
+    padding-top: 2px;
+}
+.rightmenu{
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+
+}
+.leftmenu{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.hizmetvrbtn{
+   
+    background-color: #40904B;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    color : #FFFFFF;
+    font-size: 16px;
+    align-self: flex-start;
+    margin-bottom: 13px;
+    padding: 5px 10px;;
+    
+}

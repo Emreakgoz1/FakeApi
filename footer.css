@@ -1,0 +1,72 @@
+.footer {
+  background-color: #0e0d24;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.footerrow {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerleftmenu {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footermiddlemenu {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.footerrightmenu {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.footerleftmenu .logobutton {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.footerleftmenu .text1 {
+  padding-top: 25px;
+  color: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.footermiddlemenu {
+  color: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.footerrightmenu {
+  padding-top: 150px;
+  padding-left: 50px;
+  color: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.footermiddlemenu .gizlilik {
+  padding-left: 50px;
+}
+
+.footermiddlemenu .sosyalmedya {
+  padding-left: 50px;
+}
