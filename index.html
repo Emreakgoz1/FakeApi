@@ -1,51 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="bottom.css">
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-    <title>Document</title>
-  </head>
-  <body>
-    <header class="header">
-      <div class="container">
-        <div class="headerrow">
-          <div class="col-md-9">
-            <div class="leftmenu">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="bottom.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <style>
+    p {
+      margin: 0 !important;
+    }
+
+    .ul .li {
+      list-style-type: none;
+    }
+    *{
+      font-family: "Inter";
+    }
+  </style>
+  <title>Document</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="headercontent">
+          <div class="leftmenu">
             <p class="logo">LOGO</p>
-            <p class="hizmetlerimiz">
-               Hizmetlerimiz
+            <p class="ourservices">
+              Hizmetlerimiz
             </p>
-          </div>
-          </div>
-            <div class="col-md-3">
-              <div class="rightmenu">
-              <p class="girisyap">
-                Giriş Yap
-              </p>
-              <button class="hizmetvrbtn">Hizmet Ver</button>
-            </div>
-          </div>
-          
         </div>
+      <div class="rightmenu">
+            <p class="logintext">
+              Giriş Yap
+            </p>
+            <button class="servicesbtn">Hizmet Ver</button>
+          </div>
       </div>
-    </header>
-   <!-- <header class="header">
+    </div>
+  </header>
+  <button class="increase">En pahalıdan Sırala</button>
+  <button class="decrease">En ucuzdan Sırala</button>
+    <div>
+    <p data-bs-toggle="collapse" href="#tunayaq" role="button" aria-expanded="false" aria-controls="collapseExample">
+      Daha da çok tunayın aq
+    </p>
+ </div>
+  <div class="collapse" id="tunayaq">
+    <div class="card card-body">
+      Burda da tunayın aq yapabiliyorum.
+    </div>
+  </div>
+  <!-- <header class="header">
       <div class="container">
         <div class="headerrow">
          <p class="logo">
@@ -60,86 +74,78 @@
         </p>
         <button class="hizmetvrbtn">
           Hizmet ver
-        </button>
+        </button> 
       </div>
         </div>
       </div>
     </header>-->
-      <div class="container" >
-        <div class="row" id="div">
-
-        </div>        
-      </div>
+  <div class="container">
+    <div class="row maincards" id="div">
     </div>
-    <footer class="footer">
-      <div class="container">
-        <div class="footerrow">
-          <div class="col-md-3">
-            <div class="footerleftmenu">
-               <button class="logobutton">LOGO</button>
-               <p class="text1">Amacımız, toplumda güven oluşturmak ve otomobil ile alakalı hizmetleri müşterilerimize sunmaktır. </p>
+  </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="row footerrow">
+        <div class="col-sm-12 col-lg-3">
+          <div class="footerleftmenu">
+            <button class="logobutton">LOGO</button>
+            <p class="text1">Amacımız, toplumda güven oluşturmak ve otomobil ile alakalı hizmetleri müşterilerimize
+              sunmaktır. </p>
           </div>
-          </div>
-        
-        <div class="col-md-7">
+        </div>
+          <div class="col-sm-12 col-lg-7">
           <div class="footermiddlemenu">
-          <ul class="hizmetul">
-            Hizmetlerimiz
-            <li>Oto Çekici</li>
-            <li>Oto Lastikçi</li>
-            <li>Oto Ekspertiz</li>
-            <li>Oto Elektrik</li>
-            <li>Oto Aksesuar</li>
-            <li>Oto Tamirci</li>
-            <li>Oto Yıkama</li>
-            <li>Oto Boyama</li>
-          </ul>
-          <ul class="gizlilik">
-            Gizlilik
-            <li>Kullanıcı Sözleşmesi</li>
-            <li>KVK ve Gizlilik Politikası</li>
-            <li>Çerez Tercihleri</li>
-          </ul>
-          <ul class="sosyalmedya">
-            Sosyal Medya
-            <li>facebook</li>
-            <li>instagram</li>
-            <li>youtube</li>
-            <li>twitter</li>
-          </ul>
+         <ul class="hizmetul">
+              Hizmetlerimiz
+              <li>Oto Çekici</li>
+              <li>Oto Lastikçi</li>
+              <li>Oto Ekspertiz</li>
+              <li>Oto Elektrik</li>
+              <li>Oto Aksesuar</li>
+              <li>Oto Tamirci</li>
+              <li>Oto Yıkama</li>
+              <li>Oto Boyama</li>
+            </ul>
+            <ul class="gizlilik">
+              Gizlilik
+              <li>Kullanıcı Sözleşmesi</li>
+              <li>KVK ve Gizlilik Politikası</li>
+              <li>Çerez Tercihleri</li>
+            </ul>
+            <ul class="sosyalmedya">
+              Sosyal Medya
+              <li>facebook</li>
+              <li>instagram</li>
+              <li>youtube</li>
+              <li>twitter</li>
+            </ul>
+          </div>
         </div>
-        </div>
-        <div class="col-md-2">
+        <div class="d-none d-lg-block col-lg-2">
           <div class="footerrightmenu">
-          <p>KAREKOD</p>
+            <p>KAREKOD</p>
+          </div>
         </div>
       </div>
     </div>
-      </div>
-    </footer>
-    <div class="iletişim">
+
+  </footer> 
+  <div class="footextension">
       <div class="container">
-        <div class="iletisimrow">
-          <div class="col-md-6">
-            <div class="leftbottomcontent">
-            <p class="cagri">
-              Çağrı Merkezi
-            </p>
-            <p class="no">
-              0850 123 12 12 
-            </p>
-          </div>
-          </div>
-          <div class="col-md-6">
-            <div class="rightbottomcontent">
-              <p class="hakkı">
-                2023 © Her Hakkı Saklıdır.
-              </p>
-            </div>
-          </div>
+        <div class="menu">
+          <p class="leftcontent">
+            Çağrı Merkezi <br>
+            0850 123 12 12
+          </p>
+          <p class="rightcontent">
+            2023 © Her Hakkı Saklıdır.
+          </p>
         </div>
       </div>
     </div>
-    <script src="./script.js"></script>
-  </body>
+    
+  <script src="./script.js"></script>
+</body>
+
 </html>

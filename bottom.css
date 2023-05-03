@@ -1,44 +1,25 @@
-.iletişim {
+.footextension{
+  background-color: #0E0D24;
   margin-top: 2px;
-  background-color: #0e0d24;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  padding: 5px;
 }
-
-.iletisimrow {
-  display: flex;
+.footextension .menu{
+  margin: 5px;
+  display:flex;
   justify-content: space-between;
   align-items: center;
 }
-.leftbottomcontent {
-  padding-top: 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: start;
+.footextension .menu .leftcontent{
+  color: #FFFFFF;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
 }
-.rightbottomcontent {
-  display: flex;
-  justify-content: right;
-  padding-right: 100px;
-}
-.cagri {
-  color: #ffffff;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-}
-.no {
-  color: #ffffff;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-}
-.hakkı {
-  color: #ffffff;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
+.footextension .menu .rightcontent{
+  color:#FFFFFF;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
 }

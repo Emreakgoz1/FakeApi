@@ -1,61 +1,50 @@
-.header{
-    background-color: #222229;
+.header {
+  background-color: #222229;
+  padding: 11.5px 0px;
 }
-.headerrow{
-    display: flex;
-    justify-content:space-around;
-    align-items: start;
-    padding-top: 15px;
+.header .headercontent {
+  display: flex;
+  justify-content: space-between;
 }
-.logo{
-    color:white;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
+.header .leftmenu{
+   display: flex;
+   align-items: center;
+   gap: 35px;
 }
-.hizmetlerimiz{
-    color:white;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    padding-left: 50px;
-    
-/*    padding-right: 500px;*/
+.header .rightmenu{
+  display: flex;
+  align-items: center;
+  gap : 35px
+}
+.header .headercontent .leftmenu .logo {
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+}
+.header .headercontent .leftmenu .ourservices {
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+.rightmenu .logintext {
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
 
-}
-.girisyap{
-    color:white;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    padding-right: 15px;
-    padding-top: 2px;
-}
-.rightmenu{
-    display:flex;
-    justify-content:flex-start;
-    align-items: center;
-
-}
-.leftmenu{
-    display: flex;
-    justify-content:flex-start;
-    align-items: center;
-}
-.hizmetvrbtn{
-   
-    background-color: #40904B;
-    border-radius: 8px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    color : #FFFFFF;
-    font-size: 16px;
-    align-self: flex-start;
-    margin-bottom: 13px;
-    padding: 5px 10px;;
-    
+.rightmenu .servicesbtn {
+  background-color: #40904b;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 6px 16px;
 }

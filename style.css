@@ -1,11 +1,14 @@
-
+.maincards{
+  margin-bottom: 25px ;
+  
+}
 #card {
     border: 1px solid #ccc;
     border-radius: 10px;
-    margin: 1rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
     padding: 10px;
+    height: 100%;
     
   }
  
@@ -32,4 +35,5 @@
     color: black;
     word-break: break-all;
   }
-  
+ 
+ 
